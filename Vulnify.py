@@ -158,8 +158,8 @@ class DailyCVE(Subject):
     def __request_api(self):
         """
         - insert into list = api_feed
-        apikey=[your_personal_api_key]&advisory_date=20180211
-        curl -k --data "apikey=aaf8fa1409b1f79964671be4275d55ab&advisory_date=20210115&fields=software_vendor,software_name,software_version" https://vuldb.com/?api
+        apikey=[your_individual_api_key]&advisory_date=20180211
+        curl -k --data "apikey=[your_individual_api_key]&advisory_date=20210115&fields=software_vendor,software_name,software_version" https://vuldb.com/?api
 
         error checks:
         - check if connection error
