@@ -18,7 +18,7 @@
 </p>
 
 
------
+## Description
 
 Vulnify is a vulnerability notification system integrated with **Telegram Bot API** as communication channel, and **VulnDB API** as vulnerability intelligence service. 
 
