@@ -1,0 +1,749 @@
+{
+    "response": {
+        "version": "3.23",
+        "format": "json",
+        "status": "200",
+        "lang": "en",
+        "monoblock": "1",
+        "items": 22,
+        "consumption": 1,
+        "remaining": 48,
+        "querylimit": 50,
+        "querylimitmax": 50,
+        "timestamp": "1610790766",
+        "rtt": 1,
+        "etag": "e9c6107027fedcdf-5afd3f93ec7879a0-dcca48101505dd86"
+    },
+    "request": {
+        "timestamp": "1610790765",
+        "apikey": "valid",
+        "userid": "15203",
+        "details": 0,
+        "sort": "entry_timestamp_create",
+        "fields": "software_vendor,software_name,software_version",
+        "type": "advisory_date",
+        "value": "20210115"
+    },
+    "result": [
+        {
+            "entry": {
+                "id": "168015",
+                "title": "flatCore prior 2.0.0 Build 139 ACP Interface media_filter cross site scripting",
+                "timestamp": {
+                    "create": "1610724918",
+                    "change": "1610724918"
+                }
+            },
+            "software": {
+                "name": "flatCore"
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-23838"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168014",
+                "title": "flatCore prior 2.0.0 Build 139 ACP Interface selected_folder sql injection",
+                "timestamp": {
+                    "create": "1610724869",
+                    "change": "1610724869"
+                }
+            },
+            "software": {
+                "name": "flatCore"
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-23837"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168013",
+                "title": "flatCore prior 2.0.0 Build 139 ACP Interface prefs_smtp_psw cross site scripting",
+                "timestamp": {
+                    "create": "1610724832",
+                    "change": "1610724832"
+                }
+            },
+            "software": {
+                "name": "flatCore"
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-23836"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168012",
+                "title": "flatCore prior 2.0.0 Build 139 HTTP Request docs_file information disclosure",
+                "timestamp": {
+                    "create": "1610724780",
+                    "change": "1610724780"
+                }
+            },
+            "software": {
+                "name": "flatCore"
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-23835"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168011",
+                "title": "Envira Gallery Lite up to 1.8.3.2 JavaScript\/HTML post_title cross site scripting",
+                "timestamp": {
+                    "create": "1610724663",
+                    "change": "1610724663"
+                }
+            },
+            "software": {
+                "name": "Envira Gallery Lite",
+                "version": [
+                    "1.8.3.0",
+                    "1.8.3.1",
+                    "1.8.3.2"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2020-35582"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168010",
+                "title": "Envira Gallery Lite up to 1.8.3.2 meta[title] cross site scripting",
+                "timestamp": {
+                    "create": "1610723625",
+                    "change": "1610723625"
+                }
+            },
+            "software": {
+                "name": "Envira Gallery Lite",
+                "version": [
+                    "1.8.3.0",
+                    "1.8.3.1",
+                    "1.8.3.2"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2020-35581"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168009",
+                "title": "GitLab Community Edition\/Enterprise Edition up to 13.5.5\/13.6.3\/13.7.1 Package Name denial of service",
+                "timestamp": {
+                    "create": "1610706170",
+                    "change": "1610706170"
+                }
+            },
+            "software": {
+                "vendor": "GitLab",
+                "name": [
+                    "Community Edition",
+                    "Enterprise Edition"
+                ],
+                "version": [
+                    "13.5.0",
+                    "13.5.1",
+                    "13.5.2",
+                    "13.5.3",
+                    "13.5.4",
+                    "13.5.5",
+                    "13.6.0",
+                    "13.6.1",
+                    "13.6.2",
+                    "13.6.3",
+                    "13.7.0",
+                    "13.7.1"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2020-26414"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168008",
+                "title": "GitLab Community Edition\/Enterprise Edition up to 13.5.5\/13.6.3\/13.7.1 NuGet API denial of service",
+                "timestamp": {
+                    "create": "1610706096",
+                    "change": "1610706096"
+                }
+            },
+            "software": {
+                "vendor": "GitLab",
+                "name": [
+                    "Community Edition",
+                    "Enterprise Edition"
+                ],
+                "version": [
+                    "13.5.0",
+                    "13.5.1",
+                    "13.5.2",
+                    "13.5.3",
+                    "13.5.4",
+                    "13.5.5",
+                    "13.6.0",
+                    "13.6.1",
+                    "13.6.2",
+                    "13.6.3",
+                    "13.7.0",
+                    "13.7.1"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-22168"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168007",
+                "title": "GitLab Community Edition\/Enterprise Edition up to 13.5.5\/13.6.3\/13.7.1 Repository access control",
+                "timestamp": {
+                    "create": "1610706035",
+                    "change": "1610706035"
+                }
+            },
+            "software": {
+                "vendor": "GitLab",
+                "name": [
+                    "Community Edition",
+                    "Enterprise Edition"
+                ],
+                "version": [
+                    "13.5.0",
+                    "13.5.1",
+                    "13.5.2",
+                    "13.5.3",
+                    "13.5.4",
+                    "13.5.5",
+                    "13.6.0",
+                    "13.6.1",
+                    "13.6.2",
+                    "13.6.3",
+                    "13.7.0",
+                    "13.7.1"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-22167"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168006",
+                "title": "GitLab Community Edition\/Enterprise Edition 13.7.0\/13.7.1 HTTP Request denial of service",
+                "timestamp": {
+                    "create": "1610705972",
+                    "change": "1610705972"
+                }
+            },
+            "software": {
+                "vendor": "GitLab",
+                "name": [
+                    "Community Edition",
+                    "Enterprise Edition"
+                ],
+                "version": [
+                    "13.7.0",
+                    "13.7.1"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-22166"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168005",
+                "title": "GitLab Community Edition\/Enterprise Edition up to 13.5.5\/13.6.3\/13.7.1 Pages information disclosure",
+                "timestamp": {
+                    "create": "1610705881",
+                    "change": "1610705881"
+                }
+            },
+            "software": {
+                "vendor": "GitLab",
+                "name": [
+                    "Community Edition",
+                    "Enterprise Edition"
+                ],
+                "version": [
+                    "13.5.0",
+                    "13.5.1",
+                    "13.5.2",
+                    "13.5.3",
+                    "13.5.4",
+                    "13.5.5",
+                    "13.6.0",
+                    "13.6.1",
+                    "13.6.2",
+                    "13.6.3",
+                    "13.7.0",
+                    "13.7.1"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-22171"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168004",
+                "title": "Backdoor.Win32.Ncx.bt Web Server buffer overflow",
+                "timestamp": {
+                    "create": "1610690413",
+                    "change": "1610690413"
+                }
+            },
+            "software": {
+                "name": "Backdoor.Win32.Ncx.bt"
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            }
+        },
+        {
+            "entry": {
+                "id": "168003",
+                "title": "Elasticsearch up to 7.10.1 Async Search API information disclosure",
+                "timestamp": {
+                    "create": "1610688597",
+                    "change": "1610688597"
+                }
+            },
+            "software": {
+                "name": "Elasticsearch",
+                "version": [
+                    "7.10.0",
+                    "7.10.1"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-22132"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168002",
+                "title": "Flatpak up to 1.8.4\/1.9.3 on Linux flatpak-portal Service injection",
+                "timestamp": {
+                    "create": "1610688553",
+                    "change": "1610688553"
+                }
+            },
+            "software": {
+                "name": "Flatpak",
+                "version": [
+                    "1.8.0",
+                    "1.8.1",
+                    "1.8.2",
+                    "1.8.3",
+                    "1.8.4",
+                    "1.9.0",
+                    "1.9.1",
+                    "1.9.2",
+                    "1.9.3"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-21261"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168001",
+                "title": "Google Chrome prior 81.0.4044.92 HTML Page use after free",
+                "timestamp": {
+                    "create": "1610688380",
+                    "change": "1610688380"
+                }
+            },
+            "software": {
+                "vendor": "Google",
+                "name": "Chrome"
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2020-6572"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "168000",
+                "title": "Dell EMC Avamar Server 19.1\/19.2\/19.3 Fitness Analyzer os command injection",
+                "timestamp": {
+                    "create": "1610688312",
+                    "change": "1610688312"
+                }
+            },
+            "software": {
+                "vendor": "Dell EMC",
+                "name": "Avamar Server",
+                "version": [
+                    "19.1",
+                    "19.2",
+                    "19.3"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2020-29495"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "167999",
+                "title": "Dell EMC Avamar Server 19.1\/19.2\/19.3 PDM path traversal",
+                "timestamp": {
+                    "create": "1610688257",
+                    "change": "1610688257"
+                }
+            },
+            "software": {
+                "vendor": "Dell EMC",
+                "name": "Avamar Server",
+                "version": [
+                    "19.1",
+                    "19.2",
+                    "19.3"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2020-29494"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "167998",
+                "title": "Dell EMC Avamar Server 19.1\/19.2\/19.3 Fitness Analyzer sql injection",
+                "timestamp": {
+                    "create": "1610688225",
+                    "change": "1610688225"
+                }
+            },
+            "software": {
+                "vendor": "Dell EMC",
+                "name": "Avamar Server",
+                "version": [
+                    "19.1",
+                    "19.2",
+                    "19.3"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2020-29493"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "167997",
+                "title": "Eclipse Hono AMQP\/MQTT authorization",
+                "timestamp": {
+                    "create": "1610688161",
+                    "change": "1610688161"
+                }
+            },
+            "software": {
+                "vendor": "Eclipse",
+                "name": "Hono"
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2020-27220"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "167996",
+                "title": "Eclipse Hawkbit up to 0.3.0M6 JSON Response path cross site scripting",
+                "timestamp": {
+                    "create": "1610688077",
+                    "change": "1610688077"
+                }
+            },
+            "software": {
+                "vendor": "Eclipse",
+                "name": "Hawkbit",
+                "version": [
+                    "0.3.0M6"
+                ]
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2020-27219"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "167995",
+                "title": "Google Chrome prior 84.0.4147.105 on iOS HTML Page cross site scripting",
+                "timestamp": {
+                    "create": "1610687956",
+                    "change": "1610687956"
+                }
+            },
+            "software": {
+                "vendor": "Google",
+                "name": "Chrome"
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2020-16046"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "167994",
+                "title": "Google Chrome prior 87.0.4280.66 on Android HTML Page use after free",
+                "timestamp": {
+                    "create": "1610687873",
+                    "change": "1610687873"
+                }
+            },
+            "software": {
+                "vendor": "Google",
+                "name": "Chrome"
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1610665200"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2020-16045"
+                }
+            }
+        }
+    ]
+}
