@@ -36,11 +36,13 @@ This is useful for Cyber Security teams, like cyber threat analysts, to be notif
 
 ## Dependencies
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependencies.
+* Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependencies.
 
 ```bash
 pip install -r requirements.txt
 ```
+
+* Only Unix systems supported! (for now)
 
 ## Usage
 
