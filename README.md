@@ -56,7 +56,7 @@ the final result of **app.config** file below:
 ```json
 {	
 "telegram": {"token": "TELEGRAM_BOT_TOKEN_HERE", "group_id": "TELEGRAM_GROUP_CHAT_ID_HERE"},
-"vulndb": {"endpoint_url": "hxxtp://...", "keys": "VULNDB_API_KEY_HERE", "logfiles": "./logs"}
+"vulndb": {"endpoint_url": "hxxtp://...", "keys": "VULNDB_API_KEY_HERE", "logfiles": "/tmp"}
 }
 
 ```
